@@ -1,25 +1,32 @@
-# security-python-labs
+# Password Generator 🔐
 
-Password Generator 🔐
-A simple password generator built with Python.
+A lightweight and secure password generator built with Python. This project generates random passwords with customizable lengths, helping users create stronger credentials for everyday use.
 
-Overview
-This project generates random passwords based on user-defined length. The generated password may contain:
-Uppercase letters (A-Z)
-Lowercase letters (a-z)
-Numbers (0-9)
-Special characters (!@#$%^&*)
+## Features
 
-How It Works?
-User enters the desired password length.
-Program validates the input.
-Random characters are selected from a predefined character pool.
-Generated password is displayed.
+- Generate passwords with custom lengths
+- Includes uppercase letters (`A-Z`)
+- Includes lowercase letters (`a-z`)
+- Includes numbers (`0-9`)
+- Includes special characters (`!@#$%^&*`)
+- Simple command-line interface
+- Input validation for a better user experience
 
-Future Improvements
-Require at least one uppercase letter
-Require at least one lowercase letter
-Require at least one number
-Require at least one symbol
-Generate multiple passwords at once
-Save generated passwords to a file
+## Overview
+
+Strong passwords are one of the first lines of defense against unauthorized access. This project demonstrates the use of Python's randomization capabilities to generate secure and unpredictable passwords.
+
+## How It Works
+
+1. The user enters the desired password length.
+2. The program validates the input.
+3. Characters are randomly selected from a predefined character pool.
+4. A password is generated and displayed to the user.
+
+## Example
+
+```text
+Enter password length: 12
+
+Generated Password:
+A7#kP2@xL9!m
